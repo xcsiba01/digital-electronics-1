@@ -46,9 +46,17 @@ end architecture dataflow;
    
    **Figure**
    
-   ![your figure](figure_left-right.png)
+   ![Figure](figure_left-right.png)
    
    **VHDL architecture**
+   
+   ```vhdl
+architecture dataflow of demorgan is
+begin
+    f_left_o <= ((a_i) and (b_i)) or ((a_i) and (c_i));
+    f_right_o  <= (a_i) and ((b_i) or (c_i));
+end architecture dataflow;
+```
 
 2. Link to your public EDA Playground example:
 
