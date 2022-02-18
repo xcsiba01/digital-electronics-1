@@ -6,7 +6,7 @@
 
    **Functions**
    
-   ![Logic function](.png)
+   ![Logic function](functions_org-nand-nor.png)
    
    **Figure**
    
