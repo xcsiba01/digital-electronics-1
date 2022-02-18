@@ -53,8 +53,8 @@ end architecture dataflow;
 ```vhdl
 architecture dataflow of demorgan is
 begin
-    f_left_o <= ((a_i) and (b_i)) or ((a_i) and (c_i));
-    f_right_o  <= (a_i) and ((b_i) or (c_i));
+    f_left_o <= (a_i and b_i) or (a_i and c_i);
+    f_right_o  <= (a_i) and (b_i or c_i);
 end architecture dataflow;
 ```
 
