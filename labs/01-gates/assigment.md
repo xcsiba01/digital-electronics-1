@@ -50,7 +50,7 @@ end architecture dataflow;
    
    **VHDL architecture**
    
-   ```vhdl
+```vhdl
 architecture dataflow of demorgan is
 begin
     f_left_o <= ((a_i) and (b_i)) or ((a_i) and (c_i));
