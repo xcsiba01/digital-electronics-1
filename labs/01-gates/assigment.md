@@ -46,7 +46,7 @@ end architecture dataflow;
    
    **Figure**
    
-   ![your figure]()
+   ![your figure](figure_left-right)
    
    **VHDL architecture**
 
