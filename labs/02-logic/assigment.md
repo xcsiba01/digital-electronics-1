@@ -49,7 +49,7 @@
         report "Input combination 0000, 0001 FAILED" severity error;
 
         -- Third test case ...
-        s_b <= "0011"; s_a <= "0011"; wait for 100 ns; -- ID: XXXX33
+        s_b <= "0011"; s_a <= "0011"; wait for 100 ns; -- ID = XXXX33
         -- ... and its expected outputs
         assert ((s_B_greater_A = '0') and
                 (s_B_equals_A  = '1') and
