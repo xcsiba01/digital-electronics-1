@@ -1,4 +1,4 @@
-# Lab 2: Hajnalka Csiba
+# Lab 2: YOUR_FIRSTNAME LASTNAME
 
 ### 2-bit comparator
 
