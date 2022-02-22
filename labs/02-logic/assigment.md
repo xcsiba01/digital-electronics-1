@@ -4,11 +4,11 @@
 
 1. Karnaugh maps for other two functions:
 
-   Greater than:
+   **Greater than:**
 
    ![K-maps](kmap_greater.png)
 
-   Less than:
+   **Less than:**
 
    ![K-maps](kmap_less.png)
 
