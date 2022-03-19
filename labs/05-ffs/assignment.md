@@ -21,9 +21,19 @@ begin
     p_t_ff_rst : process(clk)
     begin
         if rising_edge(clk) then
-
         -- WRITE YOUR CODE HERE
-
+           if (rst = '1') then                
+                s_q         <= '0';
+           else
+                -- normal operation
+                if (t = '0') then
+                   -- no change
+                   s_q      <= s_q;
+                else 
+                   -- inversion
+                   s_q      <= not s_q;
+                end if;
+           end if;
         end if;
     end process p_t_ff_rst;
 
