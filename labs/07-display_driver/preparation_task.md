@@ -2,7 +2,7 @@
 
 ### Preparation task
 
-    Signal timing to display four-digit value `3.142`:
+1. Signal timing to display four-digit value `3.142`:
 
    ![your figure](wavedrom.png)
 
