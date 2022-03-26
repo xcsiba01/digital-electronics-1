@@ -4,7 +4,7 @@
 
     Signal timing to display four-digit value:
 
-   ![your figure](lab6_1.png)
+   ![your figure](wavedrom.png)
 
 
 ```vhdl
