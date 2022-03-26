@@ -2,7 +2,7 @@
 
 ### Preparation task
 
-    1. Timing diagram figure for displaying value 3.142:
+    Signal timing to display four-digit value 3.142:
 
    ![your figure](lab6_1.png)
 
