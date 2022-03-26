@@ -2,10 +2,9 @@
 
 ### Preparation task
 
-    Timing diagram figure for displaying value 3.142:
+    1. Timing diagram figure for displaying value 3.142:
 
-
-    ![your figure]()
+   ![your figure](lab6_1.png)
 
 
 ```vhdl
