@@ -2,9 +2,11 @@
 
 ### Preparation task
 
-    Signal timing to display four-digit value:
+    Signal timing to display four-digit value `3.142`:
 
    ![your figure](wavedrom.png)
+
+
 
 
 ```vhdl
