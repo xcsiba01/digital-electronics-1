@@ -25,22 +25,22 @@
                         dig_o <= "0111";
 
                     when "10" =>
-                        -- WRITE YOUR CODE HERE
+                        -- DEFINE ALL OUTPUTS FOR "10" HERE
                         s_hex <= data2_i;
                         dp_o  <= dp_i(2);
                         dig_o <= "1011";
 
                     when "01" =>
-                        -- WRITE YOUR CODE HERE
+                        -- DEFINE ALL OUTPUTS FOR "01" HERE
                         s_hex <= data1_i;
                         dp_o  <= dp_i(1);
-                        dig_o <= "1110";
+                        dig_o <= "1101";
 
                     when others =>
-                        -- WRITE YOUR CODE HERE
+                        -- DEFINE ALL OUTPUTS FOR "00" HERE
                         s_hex <= data0_i;
                         dp_o  <= dp_i(0);
-                        dig_o <= "1110";
+                        dig_o <= "0111";
                 end case;
             end if;
         end if;
