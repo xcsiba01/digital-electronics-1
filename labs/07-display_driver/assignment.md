@@ -40,7 +40,7 @@
                         -- DEFINE ALL OUTPUTS FOR "00" HERE
                         s_hex <= data0_i;
                         dp_o  <= dp_i(0);
-                        dig_o <= "0111";
+                        dig_o <= "1110";
                 end case;
             end if;
         end if;
