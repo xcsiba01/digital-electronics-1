@@ -37,6 +37,3 @@ Signal timing to display four-digit value `3.142`:
   },
 }
 ```
-   
-   
-  
